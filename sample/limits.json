@@ -1,0 +1,18 @@
+{
+  "budget": 2,
+  "window": 5,
+  "quota": 3,
+  "bad_at_code": "E_BAD_AT",
+  "back_code": "E_BACK",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "stamps": [], "last": -1, "refused": [], "evicted": 0, "asks": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "ask", "at": 1 },
+    { "id": 2, "kind": "ask", "at": 2 },
+    { "id": 3, "kind": "ask", "at": 3 },
+    { "id": 4, "kind": "ask", "at": 4 },
+    { "id": 5, "kind": "ask", "at": 7 },
+    { "id": 6, "kind": "peek", "at": 7 },
+    { "id": 7, "kind": "ask", "at": 8 }
+  ]
+}
